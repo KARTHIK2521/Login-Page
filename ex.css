@@ -1,0 +1,164 @@
+body
+{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.parent
+{
+    display: flex;
+}
+
+.leftside
+{
+    background: url('photos/business-meetings.jpg');
+    width: 50%;
+    background-repeat: no-repeat;
+   background-size: cover;
+    min-height: 615px;
+    
+}
+
+.rightside
+{
+    width: 50%;
+    min-height: 615px;
+   
+    
+}
+
+.heading
+{    
+    font-family: Verdana, arial;
+    padding-top: 20px;
+    padding-left: 70px;
+    font-size: 24px;
+}
+
+.oneline{
+    padding-left: 70px;
+    color:#CCCCCC ;
+}
+
+.formcon
+{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 70px;
+    flex-wrap: wrap;
+    
+}
+
+.input-field
+
+{ 
+padding-left: 30px;
+width: 400px;
+
+
+height: 32px;
+outline: none;
+font-size: 15px;
+
+
+}
+.b1
+{
+    border: 1px solid #CCCCCC;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    
+}
+.b2
+{
+ border-color: #CCCCCC;
+ border-style: solid;
+ border-width: 0 1px 1px 1px;
+ border-bottom-left-radius: 6px;
+ border-bottom-right-radius: 6px;
+
+
+}
+
+.inputwithicon
+{
+    position: relative;
+}
+.inputwithicon i
+{
+color: #CCCCCC;
+position: absolute;
+left: 0;
+top: -2px;
+padding: 9px 8px;
+
+}
+.inputwithicon input:focus {
+    color: #CCCCCC;
+
+}
+
+.belowform
+{ 
+    left: 0; 
+    margin-left: 70px;
+    margin-top: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #cccccc;
+    font-size: 14px;
+    font-weight: 100;
+
+  
+}
+
+
+.btncon
+{
+    display: flex;
+    width: 60%;
+    
+    margin: 50px;
+    margin-left: 180px;
+    align-items: center;
+}
+.btn
+{
+    background-color : #0066ff; /* Green */
+    width: 120px;
+    height: 45px;
+    border: none;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    outline-color: white;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    
+    
+}
+.btn2
+{
+    background-color: #fff;
+    color: #0066ff ;
+    margin-left: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.lastlinecon
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+   margin:  auto ;
+   margin-left: 70px;
+   justify-content: space-between;
+   color: #0066ff;
+   
+
+}
